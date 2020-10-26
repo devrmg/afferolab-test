@@ -1,0 +1,217 @@
+
+@font-face {
+    font-family: OpenSans-Light;
+    src: url('assets/fonts/OpenSans-Light.ttf');
+  }
+  @font-face {
+    font-family: OpenSans-Regular;
+    src: url('assets/fonts/OpenSans-Regular.ttf');
+  }
+
+  @font-face {
+    font-family: fontwa;
+    src: url('assets/fonts/fontawesome-webfont.ttf');
+  }
+html {
+    font-family: 'Open Sans', sans-serif;;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+body{
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;;
+
+  }
+
+  /* ocultando mobile */
+
+  @media (min-width: 640px) {
+    .section3, #myTopnav
+   
+   {
+      display: none;
+      
+    }
+  }
+  
+  /* Logo tela full */
+.section1 { 
+  
+    background-size: cover;
+    font-family: sans-serif;
+    color: #fff;
+    position: relative;
+    
+
+}
+
+
+.sectionbg {
+    position: absolute;
+  
+  }
+.superior {
+    position: relative;
+    padding-top: 18%;
+    margin-right: 420px;    
+}
+    ul {
+    margin: 0%;
+    
+}
+
+#logo {
+    width: 140px;
+    padding-bottom:;
+       
+}
+/* BAnner */
+.section2 {
+	background-color: #ffffff;
+    
+}
+
+#imagem2 {
+  width: 100%;
+  margin: 0%;
+
+  }
+  
+  #texto {
+  position: absolute;
+  margin-top: -400px;
+  color:  white;
+  font-family: ;
+font-size: 20px;
+font-weight: 200;
+font-family: 'Open Sans', sans-serif;;
+  line-height: 1.2;
+  vertical-align: middle;
+  padding: 40px;
+  }
+
+
+ 
+  /* Seção de itens */
+
+.demo {
+	display: -webkit-box;
+	display: -ms-flexbox;
+    display: flex;
+    margin-top: 5%;
+}
+
+.flex-container {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;F
+	-webkit-box-align: baseline;
+	-ms-flex-align: baseline;
+	align-items: baseline;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	line-height: 1.2;
+	margin: 0%;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+}
+
+.flex-items {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 478px;
+	flex: 0 0 348px;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding: 38px;
+    text-align: center;
+    margin: 10px;
+}
+
+.icon {width: 110px;}
+.maior {
+	color: #272626;
+	font-size: 17px;
+	font-weight: 500;
+	font-family: 'Sa';
+    line-height: 1.7;
+    font-family: 'OpenSans-Regular';
+}
+
+.menor {
+	color: #707070;
+	font-size: 14px;
+	font-weight: 200;
+	font-family: 'Open Sans', sans-serif;;
+	line-height: 1.7;
+}
+/* Define o menu */
+#menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-family: 'OpenSans-Regular';
+  font-weight: 300;
+  vertical-align: middle;
+  word-spacing: 12px;
+  letter-spacing: 2px;
+
+}
+.item {
+    color: white;
+    font-size: 20px;
+    vertical-align: middle;
+
+
+}
+
+/* Nova classe a ser atribuída ao elemento com os estilos desejados */
+.mudaCor{
+    background-color:rgb(145, 145, 145);
+    color:#000;
+}
+#menu .item {display:inline-block; padding:20px}
+.item4 {padding: 10px 10px 10px 0px; margin:0%}
+
+/* Rodapé */
+footer {
+    width: 100%;
+	background-color: #f5f5dc;
+	padding: 6%;
+    color: #707070;
+	font-size: 14px;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;;
+    line-height: 1.7;
+    text-align: center;
+}
+#logo-fot { width: 100px; 
+}
+
+
+
